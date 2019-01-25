@@ -1,0 +1,11 @@
+
+ccp:
+  gemfire:
+    enable: false
+  multitenancy:
+    enabled: false
+    
+
+
+     
+ 

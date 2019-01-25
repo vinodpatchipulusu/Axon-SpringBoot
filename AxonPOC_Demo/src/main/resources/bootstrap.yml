@@ -1,0 +1,14 @@
+
+server:
+  port: 9005
+spring:
+  application:
+     name: AxonPOC_Demo
+  config:
+    name: ${spring.application.name}
+  profiles:
+    active: dev 
+  cloud:
+    config:
+      uri: ${vcap.services.configserver.credentials.url:http://user:password@localhost:8888}
+      enabled: false
