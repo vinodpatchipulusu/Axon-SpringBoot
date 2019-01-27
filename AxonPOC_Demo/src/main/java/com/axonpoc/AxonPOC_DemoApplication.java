@@ -1,10 +1,10 @@
 
-package com.axonpoc.controller;
+package com.axonpoc;
 
-import org.junit.Test;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.axonpoc.app.AxonPOC_DemoApplication;
 /**
  *   	Copyright (C) 2006 by Citicorp Development Center, Inc. All rights 
  *      reserved. Citicorp Development Center, Inc. claims copyright in 
@@ -26,12 +26,11 @@ import com.axonpoc.app.AxonPOC_DemoApplication;
  *
  */
  
-//@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = AxonPOC_DemoApplication.class)
-
-public class AxonPOC_DemoApplicationTests {
+@SpringBootApplication
+@EnableAutoConfiguration
+public class AxonPOC_DemoApplication {
 	
-	@Test
-	public void contextLoads() {
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AxonPOC_DemoApplication.class, args);
+    }
 }
