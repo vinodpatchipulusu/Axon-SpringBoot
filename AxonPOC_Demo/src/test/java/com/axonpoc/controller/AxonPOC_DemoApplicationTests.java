@@ -1,10 +1,6 @@
 
 package com.axonpoc.controller;
 
-import org.junit.Test;
-import org.springframework.boot.test.SpringApplicationConfiguration;
-
-import com.axonpoc.app.AxonPOC_DemoApplication;
 /**
  *   	Copyright (C) 2006 by Citicorp Development Center, Inc. All rights 
  *      reserved. Citicorp Development Center, Inc. claims copyright in 
@@ -27,11 +23,10 @@ import com.axonpoc.app.AxonPOC_DemoApplication;
  */
  
 //@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = AxonPOC_DemoApplication.class)
+//@SpringApplicationConfiguration(classes = AxonPOC_DemoApplication.class)
 
 public class AxonPOC_DemoApplicationTests {
-	
-	@Test
-	public void contextLoads() {
-	}
-}
+	/*
+	 * 
+	 * @Test public void contextLoads() { }
+	 */}

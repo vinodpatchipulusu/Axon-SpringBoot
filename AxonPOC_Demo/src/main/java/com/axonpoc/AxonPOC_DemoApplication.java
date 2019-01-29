@@ -1,5 +1,5 @@
 
-package com.axonpoc.app;
+package com.axonpoc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

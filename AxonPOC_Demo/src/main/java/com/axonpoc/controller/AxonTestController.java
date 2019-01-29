@@ -19,7 +19,7 @@ import com.axonpoc.coreapi.queries.FindAllOrderedProductsQuery;
 import com.axonpoc.coreapi.queries.OrderedProduct;
 
 @RestController
-@RequestMapping("api/v1/")
+//@RequestMapping("api/v1/")
 @EnableAutoConfiguration
 public class AxonTestController {
 

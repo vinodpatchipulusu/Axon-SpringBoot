@@ -1,6 +1,6 @@
-
 server:
-  port: 9005
+  port: 9056
+
 spring:
   application:
      name: AxonPOC_Demo
